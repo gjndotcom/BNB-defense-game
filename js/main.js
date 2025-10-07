@@ -8,10 +8,10 @@ window.addEventListener("DOMContentLoaded", game);
 //General sprite load
 const sprite = new Image();
 const spriteExplosion = new Image();
-sprite.src = './img/sprite.png';
+sprite.src = 'https://raw.githubusercontent.com/gjndotcom/BNB-defense-game/refs/heads/master/img/prite.png';
 
 window.onload = function() {
-    spriteExplosion.src = './img/explosion.png';
+    spriteExplosion.src = 'https://raw.githubusercontent.com/gjndotcom/BNB-defense-game/refs/heads/master/img/explosion.png';
 };
 
 //Game
